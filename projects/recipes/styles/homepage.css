@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    background-color: aquamarine;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+div.recipe-list{
+    text-align: center;
+    border: 1px solid dark;
+}
+
+ol.center-list{
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 5px;
+}
+
+li{
+    padding: 30px;
+}
+
+a{
+    font-size: 35px;
+}
